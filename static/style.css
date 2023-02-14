@@ -177,7 +177,7 @@ p {
 .signup {
     background-color: rgb(69, 134, 255);
     min-height: 150px;
-    flex:1 0 0;
+    flex: 1 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,13 +185,13 @@ p {
     border-radius: 10px;
 }
 
-.textsignup{
+.textsignup {
     display: flex;
     flex-direction: column;
-    flex:1 0 0;
+    flex: 1 0 0;
 }
 
-.title-signup{
+.title-signup {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
@@ -201,10 +201,10 @@ p {
     color: #f9faf8;
     opacity: .8;
 }
-.button-signup-blue {
 
-}
-.button-blue{
+.button-signup-blue {}
+
+.button-blue {
     background-color: rgb(69, 134, 255);
     color: #f9faf8;
     padding: 5px 40px;
@@ -212,4 +212,21 @@ p {
     font-size: 18px;
     border: 2px solid #f9faf8;
     border-radius: 6px;
+}
+
+/*FOOTER*/
+.footer{
+    display: flex;
+    padding: 30px 200px 30px 200px;
+    background-color:#1f2937 ;
+    align-items: center;
+}
+
+.copyright{
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    opacity: .8;
 }
