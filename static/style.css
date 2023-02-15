@@ -21,9 +21,9 @@ body {
     gap: 8px;
     justify-content: space-between;
     flex: 1 0 0;
-    background-color: #1f2937;
+    background-color: #000;
     color: #f9faf8;
-    padding: 10px 200px 10px 200px;
+    padding: 30px 200px 30px 200px;
 }
 
 .logo {
@@ -48,7 +48,7 @@ a {
 .content-title {
     display: flex;
     gap: 30px;
-    background-color: #1f2937;
+    background-color: #1d75de;
     color: #f9faf8;
     padding: 100px 200px 100px 200px;
 }
@@ -83,21 +83,40 @@ p {
     align-items: center;
     background-color: rgb(119, 119, 160);
     min-height: 200px;
+
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
 }
 
 .button-signup {
-    background-color: #389fff;
+    background-color: #000000;
     color: #f9faf8;
     padding: 10px 30px;
     font-weight: 500;
     border: none;
-    border-radius: 6px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.button-plans {
+    background-color: #000000;
+    color: #ff006a;
+    padding: 10px 30px;
+    font-weight: 500;
+    border: 3px solid;
+    border-radius: 30px;
+    font-size: 12px;
 }
 
 /*CONTENT INFORMATIN*/
@@ -135,7 +154,7 @@ p {
 .card {
     flex: 0 0 150px;
     min-height: 150px;
-    border: 5px solid rgb(69, 134, 255);
+    border: 3px solid rgb(0, 145, 255);
     border-radius: 8px;
 }
 
@@ -215,14 +234,14 @@ p {
 }
 
 /*FOOTER*/
-.footer{
+.footer {
     display: flex;
     padding: 30px 200px 30px 200px;
-    background-color:#1f2937 ;
+    background-color: #000000;
     align-items: center;
 }
 
-.copyright{
+.copyright {
     flex: 1 0 0;
     display: flex;
     justify-content: center;
